@@ -1,7 +1,10 @@
-const Header = () => {
+import { FC } from "react"
+import { NavBar } from '../Navbar'
+
+const Header: FC = () => {
     return (
         <header>
-            <>Header</>
+            <NavBar/>
         </header>
     )
 }

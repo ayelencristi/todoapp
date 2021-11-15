@@ -1,5 +1,6 @@
 import { FC } from "react"
 import { Footer, Header, Main } from ".."
+import './styless.scss'
 
 type Props = {
     id?: string,
